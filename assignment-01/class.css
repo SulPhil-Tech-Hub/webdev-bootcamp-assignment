@@ -1,0 +1,186 @@
+.main {
+    margin: auto;
+    display: flex;
+    width: 500px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+
+.profile-image {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(254, 162, 1);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+/* side one style */
+
+.side-1 {
+    width: 32%;
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+
+.side1-content {
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+
+
+.sub-header {
+    font-weight: 500 ;
+    margin: 0px;
+    margin-top: 16px;
+}
+
+p {
+    font-size: 10px;
+    color: rgb(170, 169, 169);
+}
+
+.highlight {
+    /* font-size: 10px; */
+    font-weight: 600;
+    color: rgb(235, 234, 234);
+}
+
+.contact {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+/* side two style */
+
+.side-2 {
+    width: 68%;
+    position: relative;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.top-side {
+    width: 50%;
+    height: 50px;
+    background-color: rgb(254, 162, 1);
+}
+
+.heading {
+    height: 150px;
+}
+
+.side2-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 22px;
+
+}
+
+.first-name {
+    font-size: 32px;
+    font-weight: 400px;
+    letter-spacing: 4px;
+}
+
+.last-name {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.underline {
+    width: 100%;
+    height: 2px;
+    display: flex;
+    justify-content: end;
+    margin-top: 16px;
+}
+
+.underline-side {
+    width: 70%;
+    height: 4px;
+    background-color: rgb(254, 162, 1);
+    
+}
+
+.profession {
+    font-size: 22px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+}
+
+
+.side-body {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.body-title {
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 16px;
+    border-bottom: 2px solid rgb(254, 162, 1);
+    padding-bottom: 4px;
+    width: fit-content;
+}
+
+.side-body ul {
+    margin: 0px;
+    margin-top: 6px;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: circle;
+    /* font-size: 22px; */
+    color: rgb(254, 162, 1);
+}
+
+.section2-subtitle {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: gray;
+    
+}
+
+.section2-content {
+    font-size: 11px;
+    color: gray;
+    font-weight: 200;
+
+}
+
+.year {
+    font-weight: 600;
+    color: rgb(27, 27, 27);
+}
+
+
+.skills {
+    display: flex;
+    gap: 12px;
+}
+
+.yellow-dot {
+    color: rgba(155, 122, 15, 0.726);
+}
+
+
